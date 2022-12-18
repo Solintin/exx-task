@@ -4,7 +4,7 @@ import dapp from "../assets/Svg/dapp.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-function Steps() {
+function Extra() {
   const solidity = "{solidity}";
   const stack = "{next} {react}";
   const tools = "{web3.js} {ethers.js} ";
@@ -91,4 +91,4 @@ function Steps() {
   );
 }
 
-export default Steps;
+export default Extra;
