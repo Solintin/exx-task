@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Update() {
   return (
-    <div className="max-w-6xl mx-auto mt-40 pb-40">
+    <div className="max-w-6xl px-5 md:px-0 mx-auto mt-40 pb-40">
       <h1 className="mb-5 text-2xl"> Exx Updates </h1>
       <div className="max-w-md">
         <p className="text-gray-400 text-xs">
