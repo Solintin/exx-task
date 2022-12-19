@@ -15,7 +15,7 @@
 @media screen and (max-width: 768px) {
   .connect {
     background: #fff;
-
+    border: none;
   }
 }
 .join {
