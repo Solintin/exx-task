@@ -8,10 +8,10 @@ function Footer() {
         <div className="col-span-4">
           <h1 className="mb-5 text-2xl text-[#1D2A65] "> EXX Blockchain </h1>
           <div className="max-w-md">
-            <p className="text-gray-400 font-light">
+            <div className="text-gray-400 font-light">
               <p> EXX builds on the efficacy of Ethereum,</p>
               <p> it is faster, powerful and more secured</p>
-            </p>
+            </div>
           </div>
         </div>
         <div className="col-span-2 space-y-8 flex flex-col">
@@ -118,8 +118,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center mt-4">
-        <div className="flex space-x-4 divide-x">
+      <div className="flex flex-col md:flex-row md:justify-between justify-center items-center mt-4">
+        <div className="flex md:space-x-4 md:divide-x">
           <Link
             href="#"
             className="text-sm hover:text-exx_blue font-light text-gray-400"
@@ -140,7 +140,7 @@ function Footer() {
           </Link>
         </div>
 
-        <div className="text-sm font-light text-gray-400">
+        <div className="text-sm font-light mt-5 md:mt-0 text-gray-400">
           With love 💙 from Exxample, Inc
         </div>
       </div>

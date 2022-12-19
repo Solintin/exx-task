@@ -21,7 +21,7 @@ function Subscribe() {
           <div className="md:w-3/12 w-full">
             <button className="bg-exx_blue text-white rounded-[10px] p-3 w-full flex items-center justify-center space-x-2">
               <span className=" text-sm font-bold">Subscribe</span>
-              <Image src={connect_arrow} className="mx-2" />
+              <Image alt="arrow" src={connect_arrow} className="mx-2" />
             </button>
           </div>
         </div>

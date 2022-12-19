@@ -67,12 +67,12 @@ function Steps() {
                 and grow your career.
               </p>
               <button className="rounded-[10px] py-3  px-14 bg-exx_blue  flex justify-center items-center space-x-2">
-                <Image src={discord_logo} />
+                <Image alt="discord" src={discord_logo} />
                 <span> Join the community</span>
               </button>
             </div>
-            <div className=" flex justify-self-end transform  translate-x-6 ">
-              <Image src={join} className="md:h-[320px] md:w-[400px] h-[220px] w-[260px]" />
+            <div className=" flex justify-self-end  mt-20 md:mt-0 transform  translate-x-6 ">
+              <Image alt="join" src={join} className="md:h-[320px] md:w-[400px] h-[220px] w-[260px]" />
             </div>
           </div>
         </div>

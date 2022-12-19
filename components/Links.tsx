@@ -9,21 +9,21 @@ function Links() {
         <div className="">
           <Link href="#" className="text-white rounded-[10px] py-2 flex items-center space-x-2">
             <span className="font-bold">Connect wallet</span>
-            <Image src={connect_arrow} className="mx-2" />
+            <Image alt="arrow" src={connect_arrow} className="mx-2" />
           </Link>
           <h1 className="text-[#FFFFFF60] text-[12px]">EXX seamless swap portal</h1>
         </div>
         <div className="">
           <Link href="#" className="text-white rounded-[10px] py-2 flex items-center space-x-2">
             <span className="font-bold">Exx Incubator</span>
-            <Image src={connect_arrow} className="mx-2" />
+            <Image alt="arrow" src={connect_arrow} className="mx-2" />
           </Link>
           <h1 className="text-[#FFFFFF60] text-[12px]">Launch with EXX platform</h1>
         </div>
         <div className="">
           <Link href="#" className="text-white rounded-[10px] py-2 flex items-center space-x-2">
             <span className="font-bold">Video Tutorial</span>
-            <Image src={connect_arrow} className="mx-2" />
+            <Image alt="arrow" src={connect_arrow} className="mx-2" />
           </Link>
           <h1 className="text-[#FFFFFF60] text-[12px]">Earn seamlessly with EXX</h1>
         </div>

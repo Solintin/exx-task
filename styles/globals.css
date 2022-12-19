@@ -12,6 +12,12 @@
   border: 1px solid rgba(23, 74, 255, 0.1);
   border-radius: 20px;
 }
+@media screen and (max-width: 768px) {
+  .connect {
+    background: #fff;
+
+  }
+}
 .join {
   background: #000000;
   border: 1px solid #174aff60;
@@ -20,7 +26,6 @@
 * {
   font-family: "Space Grotesk", sans-serif;
 }
-.list{
-  font-family: 'Work Sans', sans-serif;
-
+.list {
+  font-family: "Work Sans", sans-serif;
 }

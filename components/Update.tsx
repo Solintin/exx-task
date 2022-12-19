@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Update() {
   return (
-    <div className="max-w-6xl px-5 md:px-0 mx-auto mt-40 pb-40">
+    <div className="max-w-6xl px-5 md:px-0 mx-auto md:mt-40 mt-10 pb-40">
       <h1 className="mb-5 text-2xl"> Exx Updates </h1>
       <div className="max-w-md">
         <p className="text-gray-400 text-xs">
@@ -25,7 +25,7 @@ function Update() {
               The design language of the Cross Chain- pekele pekele
             </h1>
           </div>
-          <Image src={update1} />
+          <Image alt="update1" src={update1} />
         </div>
 
         <div className="bg-[#F5F5F5]  rounded-[20px]">
@@ -38,7 +38,7 @@ function Update() {
               The design language of the Cross Chain- pekele pekele
             </h1>
           </div>
-          <Image src={update2} />
+          <Image alt="update2" src={update2} />
         </div>
 
         <div className="bg-[#F5F5F5]  rounded-[20px]">
@@ -51,7 +51,7 @@ function Update() {
               The design language of the Cross Chain- pekele pekele
             </h1>
           </div>
-          <Image src={update3} />
+          <Image alt="update3" src={update3} />
         </div>
       </div>
     </div>

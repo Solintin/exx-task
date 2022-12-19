@@ -20,12 +20,12 @@ function Hero() {
             Get Started
           </button>
           <button className="rounded-[10px] md:py-3 py-2 md:px-14 px-6 border text-exx_blue border-blue-500 flex justify-center items-center space-x-2">
-            <span>Faucet</span> <Image src={faucet} />
+            <span>Faucet</span> <Image alt="faucet" src={faucet} />
           </button>
         </div>
         <div className="overflow-x-hidden mt-6 md:mt-0">
         <div className="transform md:translate-x-0 translate-x-16">
-        <Image src={exx_overview} />
+        <Image alt="exx_overview" src={exx_overview} />
         </div>
         </div>
       </div>
